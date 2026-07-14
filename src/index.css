@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Hanken+Grotesk:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Bodoni Moda", serif;
+  --font-sans: "Hanken Grotesk", sans-serif;
+  --color-primary: #c5a059;
+  --color-accent: #e9c176;
+  --color-dark: #111412;
+  --color-ivory: #e2e3df;
+  --color-outline: #9a8f80;
+  --color-outline-variant: #4e4639;
+}
+
+@layer base {
+  body {
+    background-color: #111412;
+    color: #e2e3df;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111412;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a059;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e9c176;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Spectrum",
+  "description": "A luxury editorial web experience for SPECTRUM, an exclusive liquid architecture lounge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
