@@ -4,6 +4,9 @@ import { COCKTAILS_DATA } from '../data';
 import { CocktailItem } from '../types';
 import { motion, AnimatePresence } from 'motion/react';
 
+import heroAlchemistImg from '../assets/images/hero_cocktail_alchemist_1784052063921.jpg';
+import midnightBloomImg from '../assets/images/temperance_midnight_bloom_1784052273708.jpg';
+
 const containerVariants = {
   hidden: { opacity: 0 },
   show: {
@@ -101,7 +104,7 @@ export default function MixologyMenu({ onBookTable }: MixologyMenuProps) {
         {/* Background Image with elegant gradient overlays */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_cocktail_alchemist_1784052063921.jpg"
+            src={heroAlchemistImg}
             alt="The Alchemist's Study Cocktail"
             className="w-full h-full object-cover opacity-45"
             referrerPolicy="no-referrer"
@@ -273,7 +276,7 @@ export default function MixologyMenu({ onBookTable }: MixologyMenuProps) {
           <div className="lg:col-span-5 relative group" id="temperance-img-block">
             <div className="relative overflow-hidden aspect-[3/4]">
               <img
-                src="/src/assets/images/temperance_midnight_bloom_1784052273708.jpg"
+                src={midnightBloomImg}
                 alt="Midnight Bloom - Premium Temperance Tonic"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"

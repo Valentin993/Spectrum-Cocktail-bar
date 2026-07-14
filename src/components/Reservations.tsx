@@ -2,6 +2,10 @@ import React, { useState, useRef } from 'react';
 import { Building, GraduationCap, ArrowRight, Check, X, Sparkles, BookOpen } from 'lucide-react';
 import { Reservation, Inquiry } from '../types';
 
+import sanctuaryImg from '../assets/images/sanctuary_of_senses_1784052820353.jpg';
+import crystalTumblerImg from '../assets/images/crystal_tumbler_natural_1784053062149.jpg';
+import barSeatingImg from '../assets/images/bar_seating_natural_1784053077925.jpg';
+
 interface ReservationsProps {
   reservations: Reservation[];
   addReservation: (res: Omit<Reservation, 'id' | 'createdAt' | 'status'>) => void;
@@ -206,7 +210,7 @@ export default function Reservations({
             {/* Main Ambient Lounge Photo */}
             <div className="relative overflow-hidden aspect-[16/10] w-full border border-ivory/10">
               <img
-                src="/src/assets/images/sanctuary_of_senses_1784052820353.jpg"
+                src={sanctuaryImg}
                 alt="A Sanctuary of Senses menu"
                 className="w-full h-full object-cover hover:scale-105 duration-700 transition-all"
                 referrerPolicy="no-referrer"
@@ -228,7 +232,7 @@ export default function Reservations({
             <div className="grid grid-cols-2 gap-6 h-full">
               <div className="relative overflow-hidden border border-ivory/10 aspect-[4/3] md:aspect-[16/9]">
                 <img
-                  src="/src/assets/images/crystal_tumbler_natural_1784053062149.jpg"
+                  src={crystalTumblerImg}
                   alt="Crystal Cocktail Tumbler"
                   className="w-full h-full object-cover hover:scale-105 duration-500 transition-all"
                   referrerPolicy="no-referrer"
@@ -236,7 +240,7 @@ export default function Reservations({
               </div>
               <div className="relative overflow-hidden border border-ivory/10 aspect-[4/3] md:aspect-[16/9]">
                 <img
-                  src="/src/assets/images/bar_seating_natural_1784053077925.jpg"
+                  src={barSeatingImg}
                   alt="Moody empty bar seating"
                   className="w-full h-full object-cover hover:scale-105 duration-500 transition-all"
                   referrerPolicy="no-referrer"
