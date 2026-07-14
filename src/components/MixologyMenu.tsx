@@ -101,9 +101,9 @@ export default function MixologyMenu({ onBookTable }: MixologyMenuProps) {
         {/* Background Image with elegant gradient overlays */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_cocktail_crystal_1784047820889.jpg"
+            src="/src/assets/images/hero_cocktail_alchemist_1784052063921.jpg"
             alt="The Alchemist's Study Cocktail"
-            className="w-full h-full object-cover opacity-35 filter grayscale contrast-125"
+            className="w-full h-full object-cover opacity-45"
             referrerPolicy="no-referrer"
             id="hero-bg-img"
           />
