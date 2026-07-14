@@ -273,9 +273,9 @@ export default function MixologyMenu({ onBookTable }: MixologyMenuProps) {
           <div className="lg:col-span-5 relative group" id="temperance-img-block">
             <div className="relative overflow-hidden aspect-[3/4]">
               <img
-                src="/src/assets/images/temperance_lavender_1784047834798.jpg"
+                src="/src/assets/images/temperance_midnight_bloom_1784052273708.jpg"
                 alt="Midnight Bloom - Premium Temperance Tonic"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter grayscale hover:grayscale-0 duration-500"
+                className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
                 id="temperance-img"
               />

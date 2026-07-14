@@ -206,9 +206,9 @@ export default function Reservations({
             {/* Main Ambient Lounge Photo */}
             <div className="relative overflow-hidden aspect-[16/10] w-full border border-ivory/10">
               <img
-                src="/src/assets/images/lounge_ambience_1784047846362.jpg"
-                alt="Spectrum Lounge Ambience"
-                className="w-full h-full object-cover filter grayscale contrast-125 hover:grayscale-0 duration-700 transition-all"
+                src="/src/assets/images/sanctuary_of_senses_1784052820353.jpg"
+                alt="A Sanctuary of Senses menu"
+                className="w-full h-full object-cover hover:scale-105 duration-700 transition-all"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/20 to-transparent" />
@@ -228,17 +228,17 @@ export default function Reservations({
             <div className="grid grid-cols-2 gap-6 h-full">
               <div className="relative overflow-hidden border border-ivory/10 aspect-[4/3] md:aspect-[16/9]">
                 <img
-                  src="/src/assets/images/crystal_glass_detail_1784047858041.jpg"
+                  src="/src/assets/images/crystal_tumbler_natural_1784053062149.jpg"
                   alt="Crystal Cocktail Tumbler"
-                  className="w-full h-full object-cover filter grayscale hover:grayscale-0 duration-500 transition-all"
+                  className="w-full h-full object-cover hover:scale-105 duration-500 transition-all"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div className="relative overflow-hidden border border-ivory/10 aspect-[4/3] md:aspect-[16/9]">
                 <img
-                  src="/src/assets/images/empty_bar_counter_1784047873758.jpg"
+                  src="/src/assets/images/bar_seating_natural_1784053077925.jpg"
                   alt="Moody empty bar seating"
-                  className="w-full h-full object-cover filter grayscale hover:grayscale-0 duration-500 transition-all"
+                  className="w-full h-full object-cover hover:scale-105 duration-500 transition-all"
                   referrerPolicy="no-referrer"
                 />
               </div>
