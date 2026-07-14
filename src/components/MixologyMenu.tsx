@@ -272,23 +272,29 @@ export default function MixologyMenu({ onBookTable }: MixologyMenuProps) {
       {/* Temperance Section (Non-alcoholics) */}
       <section className="mx-auto max-w-7xl px-6 md:px-12 py-24" id="temperance-section">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* Portrait Image Block */}
+          {/* Portrait Image Block with Premium Frame */}
           <div className="lg:col-span-5 relative group" id="temperance-img-block">
-            <div className="relative overflow-hidden aspect-[3/4]">
-              <img
-                src={midnightBloomImg}
-                alt="Midnight Bloom - Premium Temperance Tonic"
-                className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
-                referrerPolicy="no-referrer"
-                id="temperance-img"
-              />
-              {/* Glass subtle lighting glow */}
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+            <div className="relative p-3 border border-primary/20 bg-dark/40 shadow-2xl transition-all duration-500 group-hover:border-primary/40 rounded-sm">
+              
+              {/* Gold Corner Accents */}
+              <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary" />
+              <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-primary" />
+              <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-primary" />
+              <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-primary" />
+              
+              {/* Image Container with Inner Border */}
+              <div className="relative overflow-hidden aspect-[3/4] border border-ivory/10">
+                <img
+                  src={midnightBloomImg}
+                  alt="Midnight Bloom - Premium Temperance Tonic"
+                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                  referrerPolicy="no-referrer"
+                  id="temperance-img"
+                />
+                {/* Glass subtle lighting glow */}
+                <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+              </div>
             </div>
-            {/* Elegant tiny caption in Swiss mono */}
-            <p className="text-[10px] text-ivory/40 tracking-[0.15em] font-sans mt-3 text-right">
-              ATELIER FLUID DYNAMICS — EXP. 04
-            </p>
           </div>
 
           {/* Menu Details Block */}
